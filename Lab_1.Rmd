@@ -121,6 +121,43 @@ students_projection <- function(x,y){
 
 
 
+
+7. Data frames y lapply
+
+7.1
+```{r}
+
+index_education = function(grande){
+  (1+(grande/100))/2
+}
+index_education(10)
+
+
+
+
+
+```
+7.2
+
+```{r}
+students_grades_df
+
+
+all_students_grade= students_grades_df[c(1:5),c(2:5)]
+
+all_students_grade
+
+```
+
+7.3
+
+
+
+
+
+
+
+
 8. Math utilities
 ```{r}
 
