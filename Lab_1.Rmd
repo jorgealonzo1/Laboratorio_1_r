@@ -152,6 +152,16 @@ all_students_grade
 7.3
 
 
+```{r}
+lapply(all_students_grade,index_education)
+
+
+
+
+```
+
+
+
 
 
 
