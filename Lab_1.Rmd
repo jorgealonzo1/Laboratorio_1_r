@@ -106,11 +106,12 @@ subset(students_grades_df,subset =Accounting>80 & Legal_age==1)
 
 ```{r}
 
+result_students
+
 students_projection <- function(x,y){
   
-  a=result_students
   
-  
+
 }
 
 
